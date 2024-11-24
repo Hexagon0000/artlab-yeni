@@ -10,7 +10,7 @@ export default function Speakers() {
       >
         KONUŞMACILARIMIZ
       </h2>
-      <div className='grid h-auto grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-3'>
+      <div className='grid h-auto grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-3 '>
         {speakers.map((speaker) => (
           <Speaker
             key={speaker.id}
